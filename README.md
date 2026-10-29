@@ -52,21 +52,28 @@ Both servers use port 3000, so stop one with `Ctrl + C` before starting the othe
 | any other URL | GET | `404 - Page Not Found` (404) |
 
 ## Sample Output
+`/home`
+```json
+<img width="1920" height="1080" alt="Home" src="https://github.com/user-attachments/assets/4d3103d3-1bfd-4ff5-9c37-41b41ba27328" />
+
+```
 
 `/about`
 ```json
-{
-  "name": "GUDIPUDI DHARANISREE",
-  "section": "CSE (Generative AI)"
-}
+<img width="1920" height="1080" alt="About" src="https://github.com/user-attachments/assets/f94bada6-3d5a-4fcb-b722-0e0e9f669271" />
+
 ```
 
 `/time`
 ```json
-{
-  "currentDateTime": "29/10/2026, 10:30:15 am"
-}
+<img width="1920" height="984" alt="Time" src="https://github.com/user-attachments/assets/feeef543-95e1-4a37-9ed7-693b9a0786ee" />
+
 ```
+`/not found`
+```json
+<img width="1920" height="1080" alt="Not found" src="https://github.com/user-attachments/assets/8fc00dac-a33f-452f-86fe-d8668b05917e" />
+
+
 The actual value depends on when the route is requested and your system locale.
 
 ## Concepts Covered
