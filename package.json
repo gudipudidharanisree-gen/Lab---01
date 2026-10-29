@@ -1,0 +1,15 @@
+{
+  "name": "lab-01",
+  "version": "1.0.0",
+  "description": "Backend Development Fundamentals - Lab 01: Node.js HTTP server and Express server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:http": "node server-http.js"
+  },
+  "author": "Gudipudi Dharanisree",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
